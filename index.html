@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio farica</title>
+
+    <!-- CSS External -->
+     <link rel="stylesheet" href="css\style.css"
+
+    <!-- Tailwind CSS -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body bgcolor="crimson">
+    <!-- Header -->
+    <header class="Main Header"style="display:flex;
+    justify-content:flex-end;
+    align-items:center;">
+        <!-- Logo -->
+         <div Class="Main Logo"
+         style="height: 45px;
+         width: 45px;
+         background-image: url(https://media.istockphoto.com/id/589461872/id/vektor/bendera-indonesia.jpg?s=1024x1024&amp;w=is&amp;k=20&amp;c=PpON5WP-jF78p65zAoEPY_ZUg0DxX4Jg0OuThAYQJyY=);
+         background-size: cover;">></div>
+         
+         <!-- Navigation -->
+          <nav>
+            <a href="#Home" style="border: 1px solid;
+            padding: 5px;
+            color: black;
+            text-decoration: none;">Home</a>
+            <a href="#My Profile" style="border: 1px solid;
+            padding: 5px;
+            color: black;
+            text-decoration: none;">My Profile</a>
+            <a href="#Portofolio" style="border: 1px solid;
+            padding: 5px;
+            color: black;
+            text-decoration: none;">Portofolio</a>
+            <a href="#Message" style="border: 1px solid;
+            padding: 5px;
+            color: black;
+            text-decoration: none;">Message</a>
+          </nav>
+    </header>
+
+    <hr />
+
+    <!-- Main Content-->
+     <main>
+        <!-- Home Section -->
+        <section id="home" class="min-h-[250px]">
+            <header class="py-[32px] text-center">
+                <h1>Welcome to My page</h1>
+            </header>
+        </section>
+
+        <!-- Banner -->
+         <div class="h-[150px] bg-[url('https://picsum.photos/500')] bg-cover bg-center"></div>
+
+        <!-- My Profile Section -->
+         <section id="My Profile" class="min-h-[250px]" class="py-[32px] text-center">
+            <header class="py-[32px] text-center">
+                <h1>Profile</h1>
+            </header>
+
+           <article class="py-[32px] text-center">
+                <p>Perkenalkan saya Muhammad Farica Widyapraja Nusantara. Saya lahir di Jakarta 16 Juni 2005.
+                Saya tinggal di Bekasi.</p>
+            </article>
+
+        <!-- Portofolio Section-->
+         <section id="Portofolio" class="min-h-[250px]" class="py-[32px] text-center">
+            <header class="py-[32px] text-center">
+                <h1>Portofolio</h1>
+            </header>
+
+            <article class="py-[32px] text-center">
+                <p>saat ini status saya masih mahasiswa yang berada di universitas diponegoro jurusan matematika.</p>
+            </article>
+         </section>
+
+        <!-- Message Section -->
+         <section id="Message" class="min-h-[250px]" class="py-[32px] text-center">
+            <header class="py-[32px] text-center">
+                <h1>leave the Message</h1>
+            </header>
+
+            <div class="flex justify-space-between items-center px-[16px]">
+                <!-- Message Form -->
+             <form action="">
+                <div>
+                    <label for="name-input">Name</label>
+                    <input type="text" id="name-input" name="name" class="border border-gray-300 rounded p-[8px] w-full max-w-[400]">
+                    <div>
+                        <label for="date">Tanggal lahir :</label>
+                        <input type="date" id="Tanggal Lahir" name="Tanggal lahir">
+                </div>
+                    <div>
+                        <label for="text">Pesan</label>
+                        <input type="text" id="pesan" name="pesan" class="border boder-gray-300 rounded p-[50px] w-full max-w-[1000]"
+                    </div> 
+                    </div>
+                    
+                </div>
+                
+                <div class="py-[16px]">
+                    <button class="border rounded p-[8px] bg-blue-200 text-white" onclick="validateform();">Send</button>
+                </div>
+                
+            </form>
+
+            <!-- Result Form-->
+             <paside class="py-[16px]">
+                <p id="'result-form">Thank you for your message :)</p>
+             </paside>
+            </div>
+            
+         </section>
+         
+         
+     </main>
+
+     <!-- Footer -->
+      <footer class="text-center">
+        <p>&copy: 2025 My website</p>
+      </footer>
+
+    <!-- JS External-->
+     <script scr="js\script.js"></script>
+</body>
+</html>
